@@ -5,7 +5,7 @@ import Counter from './counter'
 export const ThemeContext = React.createContext()
 
 function App() {
-  const [theme, setTheme] = useState('red')
+  const [theme, setTheme] = useState('GREEN')
   return (
     <ThemeContext.Provider value={{ backgroundColor: theme }}>
       Counter
